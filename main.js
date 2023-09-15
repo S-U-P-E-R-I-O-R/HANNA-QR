@@ -67,7 +67,7 @@ const {
                         let code = btoa(data);
                         var words = code.split("");
                         var ress = words[Math.floor(words.length / 2)];
-                        let c = code.split(ress).join(ress + "_XASENA_");
+                        let c = code.split(ress).join(ress + "_HANNA_");
                         await session.sendMessage(session.user.id, {
                             text: `${c}`
                         })
