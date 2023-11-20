@@ -72,32 +72,9 @@ const {
                             text: `${c}`
                         })
                         await session.sendMessage(session.user.id, {
-                            text: `\n*ᴅᴇᴀʀ ᴜsᴇʀ ᴛʜɪs ɪs ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ*
+                            text: `\n*𝗧𝗛𝗔𝗡𝗞 𝗬𝗢𝗨 𝗙𝗢𝗥 𝗦𝗖𝗔𝗡𝗡𝗜𝗡𝗚 𝗛𝗔𝗡𝗡𝗔 𝗠𝗗 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧*
 
-                            ◕ ⚠️ *ᴘʟᴇᴀsᴇ ᴅᴏ ɴᴏᴛ sʜᴀʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴀs ɪᴛ ᴄᴏɴᴛᴀɪɴs ʀᴇǫᴜɪʀᴇᴅ ᴅᴀᴛᴀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴛᴀɪʟs ᴀɴᴅ ᴀᴄᴄᴇss ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ*`
-                        })
-                        const files = fs.readdirSync("./session");
-                        for (const file of files) {
-                          const data = fs.readFileSync("./session/" + file);
-                          zip.file(file, data);
-                        }
-                        zip
-                          .generateNodeStream({ type: "nodebuffer", streamFiles: true })
-                          .pipe(file.createWriteStream("session.zip"))
-                          .on("finish", async function () {
-                            await session.sendMessage(session.user.id, {
-                                document: {
-                                    url: './session.zip'
-                                },
-                                fileName: "session.zip",
-                                mimetype: "application/zip",
-                            });
-                            await fs.rm('./session', {
-                                recursive: true, force: true
-                            })
-                            process.send('reset')
-                          });
-                        
+                             *𝗗𝗢𝗡'𝗧 𝗦𝗛𝗔𝗥𝗘 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗*                        
                        
                     }
                     if (
