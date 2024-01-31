@@ -67,11 +67,11 @@ const {
                         let code = btoa(data);
                         var words = code.split("");
                         var ress = words[Math.floor(words.length / 2)];
-                        let c = code.split(ress).join(ress + "_HANNA_XO_");
+                        let c = code.split(ress).join(ress + "X-Asena");
                         await session.sendMessage(session.user.id, {text:`${c}`})
                         await session.sendMessage(session.user.id, {text:`
                        
-                       ✮ 𝐇𝐀𝐍𝐍𝐀-𝐌𝐃-𝐖𝐀 𝐁𝐎𝐓 ✮                         \n\n𝗧𝗵𝗮𝗻𝗸 𝗬𝗼𝘂 𝗙𝗼𝗿 𝗦𝗰𝗮𝗻𝗻𝗶𝗻𝗴 𝗛𝗮𝗻𝗻𝗮 𝗠𝗱.           𝗧𝗵𝗶𝘀 𝗜𝘀 𝗬𝗼𝘂𝗿 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗜’𝗱 𝗗𝗼𝗻’𝘁 𝗦𝗵𝗮𝗿𝗲 𝗔𝗻𝗼𝘁𝗵𝗲𝗿 𝗣𝗲𝗿𝘀𝗼𝗻.                                  \n\n𝘎𝘪𝘵𝘏𝘶𝘣 : _https://github.com/ABHIIY-BRO/HANNA-XO-MD_                    \n\n𝘋𝘦𝘱𝘰𝘭𝘺 : _https://heroku.com/deploy?template=https://github.com/ABHIIY-BRO/HANNA-XO-MD_                                                           \n\n𝘚𝘶𝘱𝘱𝘰𝘳𝘵 : _https://chat.whatsapp.com/IZAC43MRvbfClp1nctIOA9_\n\n\n*©️ ᴀʙʜɪɪʏ*
+                       ✮ 𝗫-𝗔𝘀𝗲𝗻𝗮-𝐖𝐀 𝐁𝐎𝐓 ✮                         \n\n𝗧𝗵𝗮𝗻𝗸 𝗬𝗼𝘂 𝗙𝗼𝗿 𝗦𝗰𝗮𝗻𝗻𝗶𝗻𝗴 𝗫-𝗔𝘀𝗲𝗻𝗮.           𝗧𝗵𝗶𝘀 𝗜𝘀 𝗬𝗼𝘂𝗿 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗜’𝗱 𝗗𝗼𝗻’𝘁 𝗦𝗵𝗮𝗿𝗲 𝗔𝗻𝗼𝘁𝗵𝗲𝗿 𝗣𝗲𝗿𝘀𝗼𝗻.                                  \n\n𝘎𝘪𝘵𝘏𝘶𝘣 : _https://github.com/ABHIIY-BRO/HANNA-XO-MD_                    \n\n𝘋𝘦𝘱𝘰𝘭𝘺 : _https://heroku.com/deploy?template=https://github.com/ABHIIY-BRO/HANNA-XO-MD_                                                           \n\n𝘚𝘶𝘱𝘱𝘰𝘳𝘵 : _https://chat.whatsapp.com/IZAC43MRvbfClp1nctIOA9_\n\n\n*©️ ᴀʙʜɪɪʏ*
                       
                       `})
      
